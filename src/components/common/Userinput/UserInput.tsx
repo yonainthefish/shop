@@ -1,4 +1,7 @@
-import { StyleInput, Stylelabel } from 'components/common/Userinput/UserInputStyeld';
+import {
+  StyleInput,
+  StyleLabel,
+} from 'components/common/Userinput/UserInputStyeld';
 
 export default function UserInput({
   type,
@@ -20,7 +23,7 @@ export default function UserInput({
 }) {
   return (
     <>
-      <Stylelabel htmlFor={id}>{children}</Stylelabel>
+      <StyleLabel htmlFor={id}>{children}</StyleLabel>
       <StyleInput
         type={type}
         onChange={onChange}

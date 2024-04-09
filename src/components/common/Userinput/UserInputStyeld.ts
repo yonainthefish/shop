@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const StyleInput = styled.input`
+const StyleInput = styled.input`
   width: 100%;
   padding: 1.2rem;
   margin: 10px 0 16px;
@@ -31,8 +31,10 @@ export const StyleInput = styled.input`
   }
 `;
 
-export const Stylelabel = styled.label`
+const StyleLabel = styled.label`
   font-size: 1.2rem;
   color: var(--font-black-color);
   font-weight: bold;
 `;
+
+export { StyleInput, StyleLabel };
